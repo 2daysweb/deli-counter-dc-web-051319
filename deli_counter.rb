@@ -31,6 +31,7 @@ else
 puts "Currently serving #{katz_deli[0]}."
 katz_deli.shift
 end
+end
 
 
 
