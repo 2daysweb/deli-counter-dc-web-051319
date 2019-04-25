@@ -26,7 +26,7 @@ line_len = katz_deli.size
 
 position = 0
 
-position = line_len - 1
+position = line_len 
 
 puts "Welcome, #{name}. You are number #{position.to_s} in line."
 
