@@ -20,7 +20,9 @@ end
 
 def take_a_number(katz_deli, name)
   position = katz_deli.size + 1 
-  puts "welcome, #{name}. You are number #{position.to_s} in line."
+  if katz_deli.size > 0 
+    
+  puts "Welcome, #{name}. You are number #{position.to_s} in line."
 end
 
 
